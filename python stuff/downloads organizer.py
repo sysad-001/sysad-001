@@ -18,7 +18,7 @@ def exception(x,y,z):
 
 #establish society       
 os.chdir('D:\DOWNLOAD')
-downloads=os.getcwd()
+downloads=os.path.dirname(os.path.realpath(__file__))
 folders=['IMAGES','FOLDERS','VIDEOS','APPLICATIONS','ARCHIVES','ETC','DOCUMENTS','AUDIO']
 exceptionisms=["downloads organizer.py", "vibranceGUI.exe", "youtube-dl.exe"]
 #check if folders actually exist
